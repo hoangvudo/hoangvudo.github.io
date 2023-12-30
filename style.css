@@ -1,0 +1,261 @@
+/* reset code  */
+body, h1,h2,h3,h4,h5,h6, ul, li {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+    /* thuoc tinh dung chung  */
+.bg-main {
+        background: linear-gradient(75deg, #4f1bc5, #7b17c5) !important;
+}
+
+.box {
+    padding: 0px 15px;
+}
+
+        /* xac dinh class de su dung  */
+        /* desktop  */
+
+@media screen and (min-width :768px) {
+    .w25 {width: 25%;}
+    .w33 {width: 33%;}
+    .w40 {width: 40%;}
+    .w50 {width: 50%;}
+    .w60 {width: 60%;}
+    .container {width: 1200px;margin: 0 auto;}
+    .left {float: left;}
+    .right {float: right;}
+    .clear {clear: both;}
+}
+#logo img {
+    margin: 15px;
+    width: 150px;
+}
+.nav ul li {
+    list-style: none;
+    float: left;
+    padding: 10px 15px;
+}
+/* .nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    font-weight: 500px;
+    margin-left: -17px;
+} */
+.nav ul {
+    margin-top: 15px;
+}
+.nav ul li a:hover {
+    color: black;
+}
+.slider-content-text {
+    padding-top: 150px;
+    color: white;
+}
+.slider-content-text .title {
+    font-size: 30px;
+}
+.slider-content-text p {
+    font-size: 20px;
+}
+.slider-content-text .download {
+    background-color: blueviolet;
+    border-radius: 15px;
+    font-size: 12px;
+    color: white;
+    padding: 15px 20px;
+    border-width: 1px;
+}
+.slider-content-text .watchnow {
+    border-radius: 15px;
+    font-size: 20px;
+    color: white;
+    padding: 15px 20px;
+    border-width: 1px;
+    background-color: transparent;
+    border: 0px;
+    margin-left: -72px;
+}
+.text {
+    padding: 20px;
+}
+#slider .container {
+    background-image: url(images/hero-bottom-shape-2.svg);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+}
+#news1 {
+    padding-top: 30px;
+}
+#news1 .box-content {    
+    box-shadow: 1px 2px 7px rgb(58, 54, 54);
+    border-radius: 15px;
+    padding: 15px;
+}
+#news1 .box {
+    padding: 15px;
+    font-size: 20px     ;
+}
+#news1 .box-content:hover {
+    background-color: #4f1bc5;
+    color: white;
+    margin-top: -10px;
+}
+#news1 .fa-solid, .fas {
+    font-size: 38px;
+    color:black;
+}
+#news2 {
+    margin-top: 150px;
+}
+#news2 .box {
+    margin-bottom: 20px;
+}
+#news2 .container {
+    margin-bottom: 20px;
+}
+#news2 .w50 {
+    margin-bottom: 20px;
+}
+.img {
+    padding-left: 168px;
+}
+#news2 .box {
+    
+}
+img.imgs {
+    width: 90%;
+}
+p h1 {
+    margin: 0px;
+    padding: 0px;
+}
+h1.title {
+    margin-top: 139px;
+}
+.title12 {
+    margin-top: 100px;
+    font-size: 40px;
+}
+.nav>li{
+    float: left;
+    margin-right: 15px;
+  }
+  
+  .nav>li>a{
+    text-transform: uppercase;
+    color:white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .nav li{
+    position: relative;
+    list-style:none;
+  }
+  
+  .nav li a{
+    padding: 10px;
+    line-height: 20px;
+    display: inline-block;
+  }
+  
+  .nav .sub-menu{
+    display: none;
+    position: absolute;
+    top: -3px;
+    left: 147%;
+    width: 133px;
+    background: rgb(14,174,231);
+    background: radial-gradient(circle, rgba(14,174,231,0.8823178929775035) 0%, rgba(233,148,227,0.9159313383556548) 100%);    padding: 5px 20px;
+  }
+  
+  .nav li:hover>.sub-menu{
+    display: block;
+  }
+  
+  .nav>li>.sub-menu{
+    top: 29px;
+    left: -16px;
+  }
+.box-content .box-bottom  button{
+    padding: 14px;
+    padding-left: 20px;
+    font-size: 10px;
+    margin-left: 20px;
+    background-color: violet;
+    border-radius: 10px;
+    margin-top: 16px;
+}
+.box-img img {
+    width: 100%;
+}
+.icon-11 {
+    font-size: 50px;
+    
+}
+#news2 {
+    background-image: url(images/about-bg-shape.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.title123 {
+    margin-top: 115px;
+    text-align: center;
+    font-size: 40px;
+}
+.text-text {
+    text-align: center;
+}
+.box-content-text {
+    margin-left: 80px;
+    margin-bottom: 85px;
+    font-size: 20px;
+}
+#new5 .title {
+    margin-top: 20px;
+}
+.box-text {
+    margin-top: 150px;
+    text-align: center;
+}
+#news5 .title {
+    font-size: 50px;
+}
+.img33 img {
+    width: 100%;
+    margin-top: -28px;
+}
+.box-title {
+    padding-bottom: 68px;
+}
+#slider11 {
+    margin-top: 50px;
+}
+.box-container {
+    margin-top: 50px;
+}
+.box-contenter {
+    margin-top: 54px;
+    padding: 80px;
+}
+.box-content123 .fas {
+    font-size: 50px;
+}
+i.fa-solid.fa-people-line {
+    font-size: 70px;
+    text-align: center;
+    color: white;
+    margin-left: 10px;
+}
+.textter {
+    font-size: 40px;
+    color: white;
+}
+.tex-text1 {
+    font-size: 20px;
+    margin-left: 9px;
+    color: white;
+}
